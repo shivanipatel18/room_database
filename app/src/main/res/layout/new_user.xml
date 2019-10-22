@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+            android:id="@+id/edtFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:hint="Enter first name"
+            android:inputType="textAutoComplete"
+            android:padding="10dip"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:textSize="18sp" />
+
+
+    <EditText
+            android:id="@+id/edtLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:hint="Enter last name"
+            android:inputType="textAutoComplete"
+            android:padding="10dip"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:textSize="18sp" />
+
+
+    <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="10dip"
+            android:text="Save"
+            android:textColor="#123456" />
+
+</LinearLayout>
